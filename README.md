@@ -10,14 +10,14 @@ The code is composed by three different files:
 - streaming_tweets.py
 - Tweet_analysis
 
-# settings.py
+### settings.py
 Several variables must be initialized such as access and token keys for Twitter API; filter keywords; database string...
 
-# streaming_tweets.py
+### streaming_tweets.py
 If not desired, there is no need to modify anything from this file. Just run it and it'll start fetching off tweets from API through tweepy.
 However, if you wish to modify which properties must be extracted from each tweet json, simply modify the StreamListener class as you please!
 
-# Tweet_analysis
+### Tweet_analysis
 Main core of the study is here. Tweets are transfered into a dataframe, clean, user location converted into coordinates, sentiment analysis applied to text and tweets are plotted in map.
 
 
